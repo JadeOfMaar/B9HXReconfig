@@ -209,21 +209,202 @@ B9HX_TEMPLATE
 		mtbf = 7500
 	}
 	
-	@MODULE[ModuleB9PartSwitch]:HAS[#baseVolume[>0]]
+	!MODULE[ModuleB9PartSwitch]:HAS[#moduleID[fuelSwitch]] {}
+}
+
+@PART[B9_Structure_HX_S_2]
+{
+	MODULE
 	{
-		!SUBTYPE[*]:HAS[~transform[*],~node[*]] {}
-		!SUBTYPE[L??],* {}
-		!SUBTYPE[KAR] {}
-		!SUBTYPE[a_l??],* {}
-		!SUBTYPE[a_kar] {}
-		!SUBTYPE[b_l??],* {}
-		!SUBTYPE[b_kar] {}
-		@SUBTYPE[*],*
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+
+		SUBTYPE
 		{
-			!tankType = DEL
+			name = Structural
+			transform = STR
 		}
-		@baseVolume = 0
+
+		SUBTYPE
+		{
+			name = LFO
+			transform = LFO
+		}
+
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoProp
+			transform = RCS
+		}
+
+		SUBTYPE
+		{
+			name = Structural_125m
+			title = Adapter
+			addedMass = 0.058
+			addedCost = 100.0
+			transform = Adapter
+		}
 	}
-	
-	!MODULE[ModuleB9PartSwitch]:HAS[!SUBTYPE[*]] {}
+}
+
+@PART[B9_Structure_HX_S_8]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+		SUBTYPE
+		{
+			name = Structural
+			transform = STR
+		}
+
+		SUBTYPE
+		{
+			name = LFO
+			transform = LFO
+		}
+
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoProp
+			transform = RCS
+		}
+	}
+}
+
+@PART[B9_Structure_HX1_A_375C]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+		SUBTYPE
+		{
+			name = a_str
+			title = Type A-Str
+			addedMass = 1.828
+			addedCost = 3115.0
+			transform = STR1
+		}
+
+		SUBTYPE
+		{
+			name = b_str
+			title = Type B-Str
+			transform = STR2
+		}
+	}
+}
+
+@PART[B9_Structure_HX1_U]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+		SUBTYPE
+		{
+			name = str_a
+			title = Structure A
+			transform = STR1
+		}
+
+		SUBTYPE
+		{
+			name = str_b
+			title = Structure B
+			transform = STR2
+		}
+
+		SUBTYPE
+		{
+			name = str_c
+			title = Structure C
+			transform = STR3
+		}
+
+		SUBTYPE
+		{
+			name = tank_lfo
+			title = LFO
+			transform = LFO
+		}
+
+		SUBTYPE
+		{
+			name = tank_mono
+			title = MonoProp
+			transform = RCS
+		}
+
+		SUBTYPE
+		{
+			name = battery
+			title = Battery
+			transform = Capacitor
+		}
+	}
+}
+
+@PART[B9_Structure_HX1_U_S|B9_Structure_HX2_U]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+		SUBTYPE
+		{
+			name = Structural
+			transform = STR
+		}
+
+		SUBTYPE
+		{
+			name = LFO
+			transform = LFO
+		}
+
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoProp
+			transform = RCS
+		}
+
+		SUBTYPE
+		{
+			name = Battery
+			transform = Capacitor
+		}
+	}
+}
+
+@PART[B9_Structure_HX4_U]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = meshSwitch
+		switcherDescription = Subtype
+		SUBTYPE
+		{
+			name = Structural
+			transform = model_hx_size3_structure1
+		}
+
+		SUBTYPE
+		{
+			name = LFO
+			transform = model_hx_size3_fuel1
+		}
+	}
 }
