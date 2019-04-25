@@ -55,7 +55,7 @@ B9HX_TEMPLATE
 	author = JadeOfMaar
 	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropHydra
 	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropHydraGlow
-	description = This kit stores MonoPropellant.
+	description = This kit stores MonoPropellant, a usually highly volatile, highly toxic substance that ignites well on contact with a hot surface.
 	templateTags = stowage
 	RESOURCE
 	{
