@@ -1,3 +1,8 @@
+@PART[B9_Structure_HX_HPD1]
+{
+	@title = HX-HPD 1 Heavy Propulsion Device
+}
+
 +PART[B9_Structure_HX_HPD1]
 {
 	@name = B9_Structure_HX_HPD2

@@ -1,5 +1,7 @@
 @PART[B9_Structure_HX1_G]:NEEDS[!DSEV]
 {
+	@category = Electrical
+	
 	MODULE
 	{
 		name = ModuleOverheatDisplay
@@ -92,6 +94,8 @@
 
 @PART[B9_Structure_HX1_G]:NEEDS[DSEV]
 {
+	@category = Electrical
+	
 	MODULE
 	{
 		name = ModuleFusionReactor

@@ -2,9 +2,9 @@ B9HX_TEMPLATE
 {
 	name = LFO
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/LFO
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/LFOGlow
-	description = This kit stores LiquidFuel and Oxidizer.
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/BiPropLFO
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/BiPropLFOGlow
+	description = This kit stores LiquidFuel and Oxidizer, the usual(tm) propellant mix for rockets.
 	templateTags = stowage
 	RESOURCE
 	{
@@ -23,9 +23,9 @@ B9HX_TEMPLATE
 {
 	name = LiquidFuel
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidFuel
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidFuelGlow
-	description = This kit stores only LiquidFuel.
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropLF
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropLFGlow
+	description = This kit stores typical Kerosene-alike Liquid Fuel.
 	templateTags = stowage
 	RESOURCE
 	{
@@ -38,9 +38,9 @@ B9HX_TEMPLATE
 {
 	name = Oxidizer
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidFuel
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidFuelGlow
-	description = This kit stores Oxidizer.
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Prop
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropGlow
+	description = This kit stores Oxidizer, the standard secondary propellant for most chemical engines. It could be cryogenic, or an Oxygenated compound that stays liquid at room temperature.
 	templateTags = stowage
 	RESOURCE
 	{
@@ -53,8 +53,8 @@ B9HX_TEMPLATE
 {
 	name = MonoProp
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Monopropellant
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/MonopropellantGlow
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropHydra
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropHydraGlow
 	description = This kit stores MonoPropellant.
 	templateTags = stowage
 	RESOURCE
@@ -68,9 +68,9 @@ B9HX_TEMPLATE
 {
 	name = Propellium
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidHydrogen
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/LiquidHydrogenGlow
-	description = This kit stores Propellium.
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropCryoLight
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropCryoLightGlow
+	description = This kit stores Propellium, the lightest weight and highest efficiency propellant known to chemical rocketry. It is cryogenic liquid hydrons and is required for the creation of LiquidFuel, Water and so on.
 	templateTags = stowage
 	RESOURCE
 	{
@@ -83,9 +83,9 @@ B9HX_TEMPLATE
 {
 	name = Explodium
 	author = JadeOfMaar
-	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Explodium
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/Explodium
-	description = This kit stores Explodium.
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropNSW
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropNSWGlow
+	description = Also called nuclear salt water, this kit stores Explodium, whether made from dissolving Blutonium in Water or scooped fresh from Eve's oceans. Asteroids might have some as well. It can power mighty and terrible rocket engines or be separated back into Water and Blutonium.
 	templateTags = stowage
 	RESOURCE
 	{
@@ -99,7 +99,7 @@ B9HX_TEMPLATE
 	name = Battery
 	author = JadeOfMaar
 	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Battery
-	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/Battery
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/BatteryGlow
 	description = This kit stores ElectricCharge, and lots of it!
 	templateTags = stowage
 	RESOURCE
@@ -123,8 +123,8 @@ B9HX_TEMPLATE
 {
 	name = OmniStorage
 	author = Angel-125
-	logoPanel = WildBlueIndustries/Pathfinder/Decals/Omni
-	glowPanel = WildBlueIndustries/Pathfinder/Decals/Omni
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Omni
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/OmniGlow
 	description = This kit can store a wide variety of resources in varying amounts.
 	templateTags = stowage
 
