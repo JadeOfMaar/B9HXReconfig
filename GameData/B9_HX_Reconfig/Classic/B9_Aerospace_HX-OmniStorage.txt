@@ -218,7 +218,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 
 		SUBTYPE
 		{
@@ -260,7 +261,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 		SUBTYPE
 		{
 			name = Structural
@@ -292,7 +294,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 		SUBTYPE
 		{
 			name = a_str
@@ -317,7 +320,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 		SUBTYPE
 		{
 			name = str_a
@@ -374,7 +378,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 		SUBTYPE
 		{
 			name = Structural
@@ -414,7 +419,8 @@ B9HX_TEMPLATE
 	{
 		name = ModuleB9PartSwitch
 		moduleID = meshSwitch
-		switcherDescription = Subtype
+		switcherDescription = Hull Option
+		switcherDescriptionPlural = Hull Options
 		SUBTYPE
 		{
 			name = Structural
