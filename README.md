@@ -1,8 +1,9 @@
 # B9HXReconfig
+### Licensed: CC-BY-NC-SA
 Rebalances B9 HX for contemporary KSP gameplay standards.
 
-![Engine modes](https://i.imgur.com/xHkMS9p.jpg)
-![SupraNTR](https://i.imgur.com/bCoyJEg.jpg)
+![Engine modes](https://i.imgur.com/VXOOvg8.png)
+![NSWR](https://i.imgur.com/8A1pYs0.jpg)
 
 HX Reconfig brings B9 HX forward in gameplay balance according to its role: to provide immense cuboid parts for building interplanetary megaships. The problem here is that stat-wise, these parts have been left in the past and the default settings for its one heavy engine are very poor for making viable long-range ships.
 

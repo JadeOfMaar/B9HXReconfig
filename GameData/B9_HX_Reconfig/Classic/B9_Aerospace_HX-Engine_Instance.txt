@@ -314,7 +314,7 @@
 @PART[B9_Structure_HX_HPD1]
 {
 	@title = HX-HPD 1 Hybrid Plasma
-	@description = The HX Heavy Propulsion Device series was created to fill the eventual demand for a single engine that can move moons...or...sufficiently large 'Untitled Space Crafts.' When Tetragon Projects was asked how they managed to produce such an engine, things went quiet very quickly. What is known, by observing it from outside, is that it has a companion, the HX-URC reactor, and that it must use a powerful magnetic field if it is to protect itself from its own exhaust.
+	@description = The HX Heavy Propulsion Device series was created to meet the eventual demand for a single engine that can move moons...or...sufficiently large 'Untitled Space Crafts.' When Tetragon Projects was asked how they managed to produce such an engine, things went quiet very quickly. What is known, by observing it from outside, is that it still performs decently in thicker atmosphere, has a companion in the HX-URC reactor, and that it must use a powerful magnetic field if it is to protect itself from its own exhaust.
 	@EFFECTS
 	{
 		!power_closed{}
@@ -449,8 +449,8 @@
 		atmosphereCurve
 		{
 			key = 0 900
-			key = 1 600
-			key = 9 0.001
+			key = 1 810 -93.49271 -93.49271
+			key = 15 0.001 0 0
 		}
 	}
 	@MODULE[ModuleEnginesFX],1
