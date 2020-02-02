@@ -79,6 +79,8 @@
 		%powerEffectName = running_nswr
 		@heatProduction = 500
 		@maxThrust = 24000
+		exhaustDamageMultiplier = 4000
+		exhaustDamageMaxRange = 1200
 		!PROPELLANT,* {}
 		PROPELLANT
 		{
@@ -89,14 +91,14 @@
 		PROPELLANT
 		{
 			name = ElectricCharge
-			ratio = 15
+			ratio = 30
 			DrawGauge = True
 		}
 		@atmosphereCurve
 		{
 			!key,* = null
-			key = 0 3000
-			key = 1 2820
+			key = 0 12000
+			key = 1 11280
 			key = 30 0.001
 		}
 	}
@@ -247,6 +249,8 @@
 		%powerEffectName = running_bluelava
 		@heatProduction = 200
 		@maxThrust = 4000
+		exhaustDamageMultiplier = 2400
+		exhaustDamageMaxRange = 1200
 		!PROPELLANT,* {}
 		PROPELLANT
 		{
@@ -264,8 +268,8 @@
 		{
 			!key,* = null
 			key = 0 100000
-			key = 1 1000
-			key = 4 0.001
+			key = 1 10000
+			key = 1.5 0.001 0 0
 		}
 		
 	}
@@ -274,7 +278,9 @@
 		@engineID = Afterburn
 		%powerEffectName = running_fusion
 		@heatProduction = 320
-		@maxThrust = 6200
+		@maxThrust = 8000
+		exhaustDamageMultiplier = 2400
+		exhaustDamageMaxRange = 1200
 		!PROPELLANT,* {}
 		PROPELLANT
 		{
@@ -291,9 +297,9 @@
 		@atmosphereCurve
 		{
 			!key,* = null
-			key = 0 15000
-			key = 1 3000
-			key = 6 0.001
+			key = 0 50000
+			key = 1 30000
+			key = 6 0.001 0 0
 		}
 	}
 	
