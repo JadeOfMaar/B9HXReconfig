@@ -26,6 +26,7 @@
 				}
 				DATA
 				{
+					// runningEffectName = running
 					PROPELLANT
 					{
 						name = LiquidFuel
@@ -64,6 +65,7 @@
 				}
 				DATA
 				{
+					// runningEffectName = running
 					PROPELLANT
 					{
 						name = Propellium
@@ -126,6 +128,7 @@
 				}
 				DATA
 				{
+					// runningEffectName = running
 					PROPELLANT
 					{
 						name = MonoPropellant
@@ -158,6 +161,7 @@
 				}
 				DATA
 				{
+					// runningEffectName = running
 					PROPELLANT
 					{
 						name = Nitronite
@@ -190,6 +194,7 @@
 				}
 				DATA
 				{
+					// runningEffectName = running
 					PROPELLANT
 					{
 						name = CompressedAtmosphere
@@ -201,6 +206,45 @@
 						key = 0 100
 						key = 1 92
 						key = 9 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = ArcJet
+			title = Heavy ArcJet
+			primaryColor = ResourceColorLqdHydrogen
+			secondaryColor = ResourceColorElectricChargePrimary
+			defaultSubtypePriority = 2
+			descriptionSummary = 
+			descriptionDetail = Uses LqdHydrogen and a sizeable serving of ElectricCharge to produce a blazing, super-efficient thrust. <br><b>Isp:</b> 200 s ASL / <color="yellow">1200 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					// runningEffectName = running_arcjet
+					PROPELLANT
+					{
+						name = LqdHydrogen
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = 0 1200
+						key = 1 200
+						key = 4 0.001
 					}
 				}
 			}
