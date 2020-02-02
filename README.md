@@ -1,4 +1,4 @@
-# B9HXReconfig
+# B9 HX Reconfig
 ### Licensed: CC-BY-NC-SA
 Rebalances B9 HX for contemporary KSP gameplay standards.
 
