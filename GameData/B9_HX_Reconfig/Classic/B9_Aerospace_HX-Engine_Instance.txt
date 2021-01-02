@@ -105,11 +105,11 @@
 	!MODULE[ModuleEnginesFX],1 {}
 	!MODULE[ModuleSurfaceFX],1 {}
 	
-	@#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
-	%MODULE[TweakScale]
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale]:NEEDS[TweakScale] { }
+	%MODULE[TweakScale]:NEEDS[TweakScale]
 	{
-		type = stack
-		defaultScale = 7.5
+		%type = stack
+		%defaultScale = 7.5
 	}
 }
 
@@ -303,11 +303,11 @@
 		}
 	}
 	
-	@#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
-	%MODULE[TweakScale]
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale]:NEEDS[TweakScale] { }
+	%MODULE[TweakScale]:NEEDS[TweakScale]
 	{
-		type = stack
-		defaultScale = 7.5
+		%type = stack
+		%defaultScale = 7.5
 	}
 }
 
