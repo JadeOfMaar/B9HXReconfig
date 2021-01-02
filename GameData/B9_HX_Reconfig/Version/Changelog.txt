@@ -1,3 +1,12 @@
+v 1.1.0 * 2021-01-02
+= = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+* Added Kerbalism radioactivity to engines.
+* Added NSW support.
+* Fixed Tweakscale patches.
+* Reduced Karborundum support.
+
+
 v 1.0.0 * 2020-02-02
 = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 

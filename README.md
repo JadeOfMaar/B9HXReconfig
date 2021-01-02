@@ -20,7 +20,7 @@ B9 HX Reconfig performs/provides the following:
   * Bi (WBI): LFO; PropLox;
 * Clones the heavy engine. Now there are three of it:
   * The original engine is a proper hybrid plasma LFO and super plasma nuclear rocket.
-  * One clone will use Karborundum or Explodium and behave as a nuclear saltwater rocket, providing unreal TWR and decent Isp at the cost of the entire ecosystem of any world it is used on.
+  * One clone will use Nuclear SaltWater, Karborundum or Explodium and behave as a nuclear saltwater rocket, providing unreal TWR and decent Isp at the cost of the entire ecosystem of any world it is used on.
   * One clone will use CRP Liquid Hydrogen (or WBI Propellium) and serve as an Epstein-alike fusion drive with secondary afterburning mode.
 * Integrates with WBI Play Mode switcher to change from using B9 Part Switch for resource switching and use Classic Stock equivalent of propellants, WBI OmniStorage for tanking and preserve B9 mesh switching separately.
 * Provides unique and all-new plumes for each engine mode and for RCS modes where necessary.
